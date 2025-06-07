@@ -1,14 +1,18 @@
 import Project from "@/app/_components/Project";
 import TypingText from "@/app/_components/TypingText";
 import SectionAnimate from "@/app/_components/SectionAnimate";
-import { FaCss3Alt, FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { FaCss3Alt, FaHtml5, FaJs, FaNode, FaReact } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import {
   SiCssmodules,
+  SiExpress,
   SiFramer,
   SiJson,
   SiLeaflet,
+  SiMongodb,
+  SiMongoose,
   SiMysql,
+  SiPug,
   SiReactquery,
   SiReactrouter,
   SiRedux,
@@ -49,6 +53,7 @@ function Projects() {
             />,
           ]}
         />
+
         <Project
           demoLink="https://etechzone.netlify.app/"
           gitHubLink="https://github.com/Thulhid/e-tech-zone"
@@ -88,9 +93,56 @@ function Projects() {
           ]}
         />
         <Project
+          demoLink="https://pearl-ceylon.vercel.app/"
+          gitHubLink="https://github.com/Thulhid/pearl-ceylon"
+          image="/projects/project-3.png"
+          title="Pearl Ceylon"
+          description="A full-stack web application built for a travel company offering tour services in Sri Lanka. It includes a custom REST API and a server-side rendered (SSR) website. The platform handles tours, user accounts, reviews, and bookings to support a complete tour booking workflow.
+
+"
+          icons={[
+            <FaNode
+              size={30}
+              className="text-gray-600 dark:text-gray-400"
+              key="FaNode"
+              title="Node.js"
+            />,
+            <SiExpress
+              size={22}
+              className="text-gray-600 dark:text-gray-400"
+              key="SiExpress"
+              title="Express.js"
+            />,
+            <SiPug
+              size={22}
+              className="text-gray-600 dark:text-gray-400"
+              key="SiPug"
+              title="Pug"
+            />,
+            <SiLeaflet
+              size={22}
+              className="text-gray-600 dark:text-gray-400"
+              key="SiLeaflet"
+              title="Leaflet"
+            />,
+            <SiMongoose
+              size={30}
+              className="text-gray-600 dark:text-gray-400"
+              key="SiMongoose"
+              title="Mongoose"
+            />,
+            <SiMongodb
+              size={25}
+              className="text-gray-600 dark:text-gray-400"
+              key="SiMongodb"
+              title="MongoDB"
+            />,
+          ]}
+        />
+        <Project
           demoLink="https://popcornvibe.netlify.app/"
           gitHubLink="https://github.com/Thulhid/popcorn-vibe"
-          image="/projects/project-3.png"
+          image="/projects/project-4.png"
           title="popcorn Vibe"
           description="React.js web application that allows users to search for movies via the OMDb API, view movie details, manage a personal watchlist, and rate films. It uses Redux for global state management, React Router for client-side navigation, and CSS Modules for modular, scoped styling."
           icons={[
@@ -125,7 +177,7 @@ function Projects() {
         <Project
           demoLink="https://traveler-map.netlify.app/"
           gitHubLink="https://github.com/Thulhid/traveler"
-          image="/projects/project-4.png"
+          image="/projects/project-5.png"
           title="Traveler"
           description="Traveler helps save memorable places visited around the world. With a simple tap on the Leaflet map, it creates logs of travels by country, along with thoughts and experiences, exactly where and when they happen. The app uses json-server to handle data storage."
           icons={[
@@ -160,7 +212,7 @@ function Projects() {
         <Project
           demoLink="https://map-mate.netlify.app/"
           gitHubLink="https://github.com/Thulhid/map-mate"
-          image="/projects/project-5.png"
+          image="/projects/project-6.png"
           title="Map Mate"
           description="Map Mate helps you log your day-to-day tasks and running workouts on the leaflet map, based on your current location. Built using OOP principles, it allows you to add, view, and store location-based tasks with ease. Your data is saved locally using LocalStorage."
           icons={[
@@ -193,7 +245,7 @@ function Projects() {
         />
         <Project
           gitHubLink="https://github.com/Thulhid/salon-management-system"
-          image="/projects/project-6.png"
+          image="/projects/project-7.png"
           title="Salon Management System"
           description="Desktop application using JavaFX and MySQL following the MVC architecture. The system allows salon staff to register clients, schedule appointments, list clients and appointments, update and remove client information, and sort or filter clients."
           icons={[

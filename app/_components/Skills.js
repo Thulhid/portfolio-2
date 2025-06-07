@@ -36,39 +36,51 @@ function Skills() {
           }}
         >
           <article className="text-base text-gray-800 xl:text-lg dark:text-gray-300">
-            <p>
-              From building complex web applications with{" "}
-              <strong>JavaScript</strong>, <strong>React.js</strong>,{" "}
-              <strong>Next.js</strong>, <strong>Redux</strong>,{" "}
-              <strong>React Query</strong>, and <strong>React Router</strong> to
-              crafting clean, intuitive interfaces using <strong>Figma</strong>{" "}
-              and <strong>Tailwind CSS</strong> — I enjoy creating user
-              experiences that are smooth, fast, and delightful.
-            </p>
+            <section>
+              <h2 className="mb-2 text-lg font-semibold">Frontend</h2>
+              <ul className="grid list-disc grid-cols-1 gap-x-6 gap-y-1 pl-5 sm:grid-cols-2 md:grid-cols-3">
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>JavaScript</li>
+                <li>Redux</li>
+                <li>React Query</li>
+                <li>Framer Motion</li>
+                <li>Tailwind CSS</li>
+                <li>Figma</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
+            </section>
 
-            <p>
-              I deeply care about performance and maintainability, ensuring
-              everything runs efficiently without compromising on design or
-              interactivity. With a keen eye for motion and subtle transitions,
-              I bring interfaces to life using <strong>Framer Motion</strong>.
-            </p>
+            <section className="mt-6">
+              <h2 className="mb-2 text-lg font-semibold">Backend and DevOps</h2>
+              <ul className="grid list-disc grid-cols-1 gap-x-6 gap-y-1 pl-5 sm:grid-cols-2 md:grid-cols-3">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Mongoose</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Docker</li>
+              </ul>
+            </section>
 
-            <p>
-              Also, I have a strong foundation in <strong>Java</strong>,{" "}
-              <strong>OOP principles</strong>, <strong>JavaFX</strong> and{" "}
-              <strong>MySQL</strong> knowledge, which strengthens my
-              problem-solving skills and architectural thinking.
-            </p>
+            <section className="mt-6">
+              <h2 className="mb-2 text-lg font-semibold">Desktop</h2>
+              <ul className="grid list-disc grid-cols-1 gap-x-6 gap-y-1 pl-5 sm:grid-cols-2 md:grid-cols-3">
+                <li>Java</li>
+                <li>JavaFX</li>
+              </ul>
+            </section>
           </article>
         </motion.div>
       </div>
-      <div className="m-auto my-20 w-xs overflow-hidden rounded-2xl bg-blue-100 transition-colors duration-300 sm:w-md md:w-xl xl:w-4xl dark:bg-sky-200">
+      <div className="m-auto my-20 w-xs overflow-hidden rounded-2xl bg-blue-100 transition-colors duration-300 sm:w-lg md:w-3xl xl:w-6xl dark:bg-sky-200">
         <motion.div className="flex w-max gap-6">
           {[1, 2, 3].map((_, index) => (
             <motion.div
               key={index}
-              className="m-4 flex gap-8 sm:gap-10 md:gap-15"
-              animate={{ x: ["0%", "-100%"] }}
+              className="my-4 flex gap-4 sm:gap-8 md:mx-2 md:gap-10 xl:mx-4 xl:gap-15"
+              animate={{ x: ["0%", "-90%"] }}
               transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
             >
               {[
@@ -80,15 +92,18 @@ function Skills() {
                 ["/logos/motion.png", "Framer Motion"],
                 ["/logos/tailwind.png", "Tailwind CSS"],
                 ["/logos/figma.png", "Figma"],
-                ["/logos/react-router.svg", "React Router"],
-                ["/logos/java.png", "Java/Java FX"],
+                ["/logos/nodejs.png", "Node.js"],
+                ["/logos/expressjs.png", "Express.js"],
+                ["/logos/mongoose.png", "Mongoose"],
+                ["/logos/mongodb.png", "MongoDB"],
                 ["/logos/MySQL.png", "MySQL"],
+                ["/logos/java.png", "Java/Java FX"],
               ].map((img, i) => (
                 <motion.img
                   key={i}
                   src={img[0]}
                   title={img[1]}
-                  className="w-12 cursor-pointer object-cover"
+                  className="w-8 cursor-pointer object-cover md:w-10 xl:w-12"
                   whileHover={{ scale: 1.2 }}
                   transition={{ duration: 0.3 }}
                 />
