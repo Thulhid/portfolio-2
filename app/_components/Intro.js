@@ -28,7 +28,7 @@ export default function Intro() {
           </p>
           <Button
             variant="primary"
-            link="/cv-hiruna-thulhid.pdf"
+            link="/Hiruna_Thulhid_CV.pdf"
             isDownload={true}
           >
             Download CV
