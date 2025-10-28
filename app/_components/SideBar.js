@@ -76,6 +76,14 @@ function SideBar({ onIsToggleMenu }) {
             Skills
           </a>
         </motion.li>
+        <motion.li
+          className="p-4 text-gray-600 dark:text-gray-200"
+          variants={itemVariants}
+        >
+          <a href="#experience" onClick={() => onIsToggleMenu(false)}>
+            Experience
+          </a>
+        </motion.li>
 
         <motion.li
           className="p-4 text-gray-600 dark:text-gray-200"

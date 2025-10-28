@@ -1,3 +1,5 @@
+import Header from "@/app/_components/Header";
+import { useScrollAnimation } from "@/app/_Hooks/useScrollAnimation";
 import Main from "@/app/Main/page";
 import "@/app/_styles/globals.css";
 

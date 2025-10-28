@@ -1,5 +1,6 @@
 "use client";
 import Education from "@/app/_components/Education";
+import Experience from "@/app/_components/Experience";
 import Header from "@/app/_components/Header";
 import Intro from "@/app/_components/Intro";
 import Projects from "@/app/_components/Projects";
@@ -23,6 +24,7 @@ export default function Main() {
       <Intro />
       <Projects isToggleMenu={isToggleMenu} />
       <Skills isToggleMenu={isToggleMenu} />
+      <Experience isToggleMenu={isToggleMenu} />
       <Education isToggleMenu={isToggleMenu} />
     </div>
   );

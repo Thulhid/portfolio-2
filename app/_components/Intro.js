@@ -19,16 +19,15 @@ export default function Intro() {
       <div className="flex w-fit flex-col items-center md:flex-row xl:ml-15">
         <div className="order-2 mt-5 flex flex-col items-center md:order-1">
           <p className="mx-3 my-5 max-w-xl space-y-3 text-base text-gray-800 md:mt-10 md:mb-15 xl:text-lg dark:text-gray-300">
-            I&apos;m a full-stack developer with real-world experience building
-            dynamic and scalable web applications across both frontend and
-            backend. I focus on creating clean, user-friendly interfaces and
-            reliable server-side systems. I&apos;m always learning and
-            improving, motivated by solving real problems and building useful
-            applications.
+            I&apos;m a full-stack developer with experience building dynamic and
+            scalable web applications across both frontend and backend. I focus
+            on creating clean, user-friendly interfaces and reliable server-side
+            systems. I&apos;m always learning and improving, motivated by
+            solving real problems and building useful applications.
           </p>
           <Button
             variant="primary"
-            link="/Hiruna_Thulhid_CV.pdf"
+            link="/cv-hiruna-thulhid.pdf"
             isDownload={true}
           >
             Download CV

@@ -42,6 +42,7 @@ function Skills() {
                 <li>React.js</li>
                 <li>Next.js</li>
                 <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>Redux</li>
                 <li>React Query</li>
                 <li>Framer Motion</li>
@@ -58,8 +59,10 @@ function Skills() {
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>Mongoose</li>
+                <li>Prisma</li>
                 <li>MongoDB</li>
                 <li>MySQL</li>
+                <li>PostgreSQL</li>
                 <li>Docker</li>
               </ul>
             </section>
