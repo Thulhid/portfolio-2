@@ -22,7 +22,7 @@ function Experience() {
       >
         {" "}
         <p className="text-lg text-blue-900 sm:text-2xl dark:text-sky-200">
-          Intern – Full Stack Web Developer
+          Trainee Web Developer - Full Stack Web Developer
         </p>
         <p className="text-sm text-gray-600 dark:text-gray-300">
           Career Investment & Management Agency (Pvt) Limited (CIMA), Gampaha,
@@ -30,7 +30,8 @@ function Experience() {
         </p>
         <p className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-300">
           <IoCalendarOutline />
-          <time dateTime="2024-09">Jul 2025</time> - <time>Present</time>
+          <time dateTime="2024-09">Jul 2025</time> -{" "}
+          <time>Jan 2026 (Trainee Program)</time>
         </p>
         <p className="my-5 text-sm text-gray-800 sm:text-base dark:text-gray-300">
           Engaged in developing full-stack web solutions for internal and
