@@ -3,6 +3,8 @@ import TypingText from "@/app/_components/TypingText";
 import SectionAnimate from "@/app/_components/SectionAnimate";
 import { FaCss3Alt, FaHtml5, FaJs, FaNode, FaReact } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { BiLogoPostgresql } from "react-icons/bi";
+
 import {
   SiCssmodules,
   SiExpress,
@@ -26,6 +28,38 @@ function Projects() {
         <TypingText text="Projects" />
       </h2>
       <ul className="flex flex-col items-center gap-20 py-5 md:p-10 xl:gap-35">
+        <Project
+          demoLink="https://farm-buddy-dev.vercel.app"
+          image="/projects/project-9.png"
+          title="Farm Buddy"
+          description="Farm Buddy is a full-stack e-commerce platform built for an Australian animal-feed business. Developed with Next.js (App Router), TypeScript, Prisma and PostgreSQL, it provides a product catalogue for grains and feeds, filtering by animal type and weight, a cart and checkout flow with Stripe payments, and AWS S3 for product image storage. Designed as a production-ready MVP, it reflects real-world business logic for local delivery and postal shipping in the Australian market."
+          icons={[
+            <RiNextjsFill
+              size={25}
+              className="text-gray-600 dark:text-gray-400"
+              key="FaReact"
+              title="Next.js"
+            />,
+            <RiTailwindCssFill
+              size={22}
+              className="text-gray-600 dark:text-gray-400"
+              key="SiReactquery"
+              title="Tailwind CSS"
+            />,
+            <SiFramer
+              size={22}
+              className="text-gray-600 dark:text-gray-400"
+              key="RiTailwindCssFill"
+              title="Framer Motion"
+            />,
+            <BiLogoPostgresql
+              size={22}
+              className="text-gray-600 dark:text-gray-400"
+              key="BiLogoPostgresql"
+              title="PostgreSQL"
+            />,
+          ]}
+        />
         <Project
           demoLink="https://i-pro-mart.vercel.app"
           image="/projects/project-8.png"
@@ -183,6 +217,7 @@ function Projects() {
             />,
           ]}
         />
+
         <Project
           demoLink="https://popcornvibe.netlify.app/"
           gitHubLink="https://github.com/Thulhid/popcorn-vibe"
