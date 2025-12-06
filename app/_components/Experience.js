@@ -22,7 +22,7 @@ function Experience() {
       >
         {" "}
         <p className="text-lg text-blue-900 sm:text-2xl dark:text-sky-200">
-          Trainee Web Developer - Full Stack Web Developer
+          Trainee Web Developer
         </p>
         <p className="text-sm text-gray-600 dark:text-gray-300">
           Career Investment & Management Agency (Pvt) Limited (CIMA), Gampaha,
