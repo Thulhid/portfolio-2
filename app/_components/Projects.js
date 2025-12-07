@@ -171,7 +171,7 @@ function Projects() {
           ]}
         />
         <Project
-          demoLink="https://pearl-ceylon.vercel.app/"
+          demoLink="https://documenter.getpostman.com/view/44962175/2sB2qgeJZW"
           gitHubLink="https://github.com/Thulhid/pearl-ceylon"
           image="/projects/project-3.png"
           title="Pearl Ceylon"
