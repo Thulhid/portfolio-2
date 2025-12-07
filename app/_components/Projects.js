@@ -29,7 +29,7 @@ function Projects() {
       </h2>
       <ul className="flex flex-col items-center gap-20 py-5 md:p-10 xl:gap-35">
         <Project
-          demoLink="https://farmbuddy.com.au"
+          demoLink="https://farm-buddy-dev.vercel.app"
           image="/projects/project-9.png"
           title="Farm Buddy"
           description="Farm Buddy is a full-stack e-commerce platform built for an Australian animal-feed business. Developed with Next.js (App Router), TypeScript, Prisma and PostgreSQL, it provides a product catalogue for grains and feeds, filtering by animal type and weight, a cart and checkout flow with Stripe payments, and AWS S3 for product image storage. Designed as a production-ready MVP, it reflects real-world business logic for local delivery and postal shipping in the Australian market."
